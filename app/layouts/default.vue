@@ -6,7 +6,7 @@
             </template>
             
             <v-app-bar-title class="font-weight-bold text-primary">
-                DREAM HOME <span class="text-caption text-grey">รับสร้างบ้านครบวงจร</span>
+               MD DREAM HOME <span class="text-caption text-grey">รับสร้างบ้านครบวงจร</span>
             </v-app-bar-title>
             
             <v-spacer></v-spacer>
@@ -31,7 +31,7 @@
                 <v-btn v-for="icon in icons" :key="icon" :icon="icon" class="mx-2" size="small" variant="plain"></v-btn>
             </div>
             <div class="px-4 py-2 text-center w-100 text-grey-lighten-1 text-caption">
-                {{ new Date().getFullYear() }} — <strong>Dream Home Builder Co., Ltd.</strong>
+                {{ new Date().getFullYear() }} — <strong>MD Dream Home Builder Co., Ltd.</strong>
             </div>
         </v-footer>
     </v-app>
